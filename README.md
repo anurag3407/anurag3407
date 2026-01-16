@@ -66,7 +66,7 @@
 <div align="center">
 
 <a href="https://github.com/anurag3407/ghosthunter">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=ghosthunter&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="GhostHunter"/>
+  <img src="./ghosthunter.png" alt="GhostHunter"/>
 </a>
 <a href="https://github.com/anurag3407/Lexi">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=Lexi&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Lexi"/>
