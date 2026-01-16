@@ -1,9 +1,9 @@
 name: Generate Snake Animation
 
 on:
-  # Run automatically every 12 hours
+  # Run automatically every 24 hours
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"
   
   # Allow manual trigger
   workflow_dispatch:
@@ -15,31 +15,32 @@ on:
       - master
 
 jobs:
-  generate:
+  build:
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-      
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: anurag3407
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          node-version: '20'
+          
+      - name: Generate Snake
+        run: |
+          npx --yes @aleen42/snk-cli@latest -u anurag3407 -o dist/github-contribution-grid-snake.svg
+          npx --yes @aleen42/snk-cli@latest -u anurag3407 -o dist/github-contribution-grid-snake-dark.svg --dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
-      - name: Push Snake Animation to Output Branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Push to output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
