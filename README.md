@@ -6,7 +6,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/anurag3407?style=for-the-badge&logo=github&color=181717)](https://github.com/anurag3407?tab=followers)
 [![GitHub Stars](https://img.shields.io/github/stars/anurag3407?style=for-the-badge&logo=github&color=181717)](https://github.com/anurag3407?tab=repositories)
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;Open+Source+Enthusiast+%F0%9F%8C%9F;Always+Learning+%F0%9F%93%9A;Building+Cool+Stuff+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;Open+Source+Enthusiast+%F0%9F%8C%9F;Always+Learning+%F0%9F%93%9A;Building+Cool+Stuff+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 
@@ -16,7 +16,9 @@
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=anurag3407&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&mode=weekly)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=anurag3407&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+</a>
 
 </div>
 
@@ -25,8 +27,12 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anurag3407&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anurag3407&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae"/>
+  <a href="https://github.com/anurag3407">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anurag3407&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae" alt="Anurag's GitHub Stats"/>
+  </a>
+  <a href="https://github.com/anurag3407">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anurag3407&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae" alt="Top Languages"/>
+  </a>
 </div>
 
 ---
@@ -35,7 +41,9 @@
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=anurag3407&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=anurag3407&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
+</a>
 
 </div>
 
@@ -45,7 +53,9 @@
 
 <div align="center">
 
-[![Anurag's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anurag3407&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<a href="https://github.com/anurag3407">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anurag3407&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
+</a>
 
 </div>
 
@@ -55,12 +65,14 @@
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=scholorsync&theme=tokyonight&hide_border=true&bg_color=1a1b27)](https://github.com/anurag3407/scholorsync)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=anurag3407&theme=tokyonight&hide_border=true&bg_color=1a1b27)](https://github.com/anurag3407/anurag3407)
+<a href="https://github.com/anurag3407/ghosthunter">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=ghosthunter&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="GhostHunter"/>
+</a>
+<a href="https://github.com/anurag3407/Lexi">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=Lexi&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Lexi"/>
+</a>
 
 </div>
-
-> 💡 **Tip:** Replace the repo names above with your actual best repositories!
 
 ---
 
@@ -101,11 +113,24 @@
 
 <div align="center">
 
-| 📈 Metric | 📊 Value |
-|:---:|:---:|
-| 🔥 Current Streak | ![Streak](https://img.shields.io/badge/dynamic/json?color=blueviolet&label=&query=%24.currentStreak.length&url=https%3A%2F%2Fstreak-stats.demolab.com%2F%3Fuser%3Danurag3407%26type%3Djson&style=flat-square) days |
-| 🏆 Longest Streak | ![Longest](https://img.shields.io/badge/dynamic/json?color=orange&label=&query=%24.longestStreak.length&url=https%3A%2F%2Fstreak-stats.demolab.com%2F%3Fuser%3Danurag3407%26type%3Djson&style=flat-square) days |
-| 📅 Total Contributions | ![Contributions](https://img.shields.io/badge/dynamic/json?color=green&label=&query=%24.totalContributions&url=https%3A%2F%2Fstreak-stats.demolab.com%2F%3Fuser%3Danurag3407%26type%3Djson&style=flat-square) |
+<table>
+  <tr>
+    <td align="center"><b>📈 Metric</b></td>
+    <td align="center"><b>📊 Stats</b></td>
+  </tr>
+  <tr>
+    <td align="center">🔥 Streak Stats</td>
+    <td align="center">
+      <img src="https://streak-stats.demolab.com?user=anurag3407&theme=transparent&hide_border=true&mode=weekly&fire=FF2222&ring=6C63FF&currStreakLabel=6C63FF" height="150" alt="streak stats"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">📅 Contributions</td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=anurag3407&show_icons=true&count_private=true&theme=transparent&hide_border=true&hide_title=true&hide_rank=true" height="120" alt="contribution stats"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -115,11 +140,13 @@
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/anurag3407/anurag3407/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anurag3407/anurag3407/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anurag3407/anurag3407/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/anurag3407/anurag3407/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
-
-> ⚠️ **Note:** To enable the snake animation, you'll need to set up a GitHub Action. See the setup instructions below!
 
 ---
 
@@ -137,11 +164,19 @@
 
 ---
 
-## 📝 Random Dev Quote
+## � Dev Quote
 
 <div align="center">
 
-[![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+```
+                    ╔══════════════════════════════════════════╗
+                    ║                                          ║
+                    ║   "Break First, Build Later"             ║
+                    ║                                          ║
+                    ║                    — Anurag Mishra       ║
+                    ║                                          ║
+                    ╚══════════════════════════════════════════╝
+```
 
 </div>
 
