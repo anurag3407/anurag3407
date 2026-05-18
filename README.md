@@ -3,7 +3,7 @@
 # ⛩️ Anurag Mishra
 ### *Modern Ronin of the Web*
 
-<img src="https://images.unsplash.com/photo-1615694291811-0ff229fd9e00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Cyber Samurai Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; object-fit: cover; height: 250px;">
+<img src="https://images.unsplash.com/photo-1554310603-d39d43033735?auto=format&fit=crop&w=1200&q=80" alt="Cyber Samurai Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; object-fit: cover; height: 250px;">
 
 <br>
 
