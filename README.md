@@ -3,7 +3,7 @@
 # ⛩️ Anurag Mishra
 ### *Modern Ronin of the Web*
 
-<img src="https://images.unsplash.com/photo-1554310603-d39d43033735?auto=format&fit=crop&w=1200&q=80" alt="Cyber Samurai Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; object-fit: cover; height: 250px;">
+<img src="developerGithub.png" alt="Developer GitHub Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; object-fit: cover;">
 
 <br>
 
@@ -40,13 +40,33 @@ Wandering the vast digital landscape, I am a CSE major at **NIT Patna**, wieldin
 ## 📜 Sacred Scrolls (Featured Projects)
 
 <div align="center">
+  <h3>👻 GhostHunter</h3>
   <a href="https://github.com/anurag3407/GhostHunter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=GhostHunter&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GhostHunter" width="48%">
+    <img src="ghosthunter.png" alt="GhostHunter UI" width="80%" style="border-radius: 12px; margin-bottom: 10px; border: 2px solid #30363d;">
   </a>
+  <br>
+  <a href="https://github.com/anurag3407/GhostHunter">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=GhostHunter&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GhostHunter" width="80%">
+  </a>
+</div>
+
+<br><br>
+
+<div align="center">
+  <h3>🤖 Lexi</h3>
   <a href="https://github.com/anurag3407/Lexi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=Lexi&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Lexi" width="48%">
+    <img src="lexi.png" alt="Lexi UI" width="80%" style="border-radius: 12px; margin-bottom: 10px; border: 2px solid #30363d;">
   </a>
-  <br><br>
+  <br>
+  <a href="https://github.com/anurag3407/Lexi">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=Lexi&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Lexi" width="80%">
+  </a>
+</div>
+
+<br><br>
+
+<div align="center">
+  <h3>Other Notable Works</h3>
   <a href="https://github.com/anurag3407/Justice_track">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=anurag3407&repo=Justice_track&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Justice_track" width="48%">
   </a>
@@ -58,6 +78,13 @@ Wandering the vast digital landscape, I am a CSE major at **NIT Patna**, wieldin
 <br><br>
 
 ## 🎖️ Battle Honours (Live Stats & Achievements)
+
+<div align="center">
+  <h3>🔥 Contribution Graph</h3>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anurag3407&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Contribution Graph" width="100%" />
+</div>
+
+<br>
 
 <div align="center">
   <h3>🏆 Trophies</h3>
