@@ -6,9 +6,9 @@
 
 <div align="center">
 
-[![anurag3407 header](./assets/hero-terminal.svg)](https://anurag3407.dev/)
+[![anurag3407 header](./assets/hero-terminal.svg)](https://github.com/anurag3407/portfolio)
 
-**[_portfolio](https://anurag3407.dev/) &nbsp;·&nbsp; [_$ whoami_](#-whoami) &nbsp;·&nbsp; [_projects_](#-selected-work) &nbsp;·&nbsp; [_stack_](#-stack--loadout) &nbsp;·&nbsp; [_stats_](#-activity--signal) &nbsp;·&nbsp; [_contact_](#-open-a-connection)**
+**[_portfolio](https://github.com/anurag3407/portfolio) &nbsp;·&nbsp; [_$ whoami_](#-whoami) &nbsp;·&nbsp; [_projects_](#-selected-work) &nbsp;·&nbsp; [_stack_](#-stack--loadout) &nbsp;·&nbsp; [_stats_](#-activity--signal) &nbsp;·&nbsp; [_contact_](#-open-a-connection)**
 
 </div>
 
@@ -131,7 +131,7 @@ Recruiter, fellow builder, or curious wanderer — my inbox is open. Fastest res
 
 <a href="https://linkedin.com/in/anurag3407"><img src="https://img.shields.io/badge/LinkedIn-let's%20talk-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://x.com/anurag3407"><img src="https://img.shields.io/badge/X-follow%20along-14191E?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" /></a>
-<a href="https://anurag3407.dev/"><img src="https://img.shields.io/badge/Portfolio-full%20site-D32F2F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
+<a href="https://github.com/anurag3407/portfolio"><img src="https://img.shields.io/badge/Portfolio-full%20site-D32F2F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
 <a href="mailto:anuragmishra3407@gmail.com"><img src="https://img.shields.io/badge/Email-drop%20a%20line-101A30?style=for-the-badge&logo=gmail&logoColor=E8EEF7" alt="Email" /></a>
 
 </div>

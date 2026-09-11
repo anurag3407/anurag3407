@@ -342,7 +342,7 @@ def footer(preview=False):
 <text x="84" y="84" font-family="{MONO}" font-size="13" fill="{TXT_MID}">session closed · thanks for scrolling — 100% ▓▓▓▓▓▓</text>
 <text x="84" y="112" font-family="{MONO}" font-size="13" fill="{GREEN}">◈ crafted by hand with raw SVG — zero templates</text>
 <text x="84" y="140" font-family="{MONO}" font-size="13" fill="{TXT_DIM}">reconnect →</text>
-<text x="184" y="140" font-family="{MONO}" font-size="13" fill="{BLUE}">linkedin/anurag3407 · x/anurag3407 · anurag3407.dev</text>
+<text x="184" y="140" font-family="{MONO}" font-size="13" fill="{BLUE}">linkedin/anurag3407 · x/anurag3407 · github/anurag3407/portfolio</text>
 <g class="who"><text x="840" y="128" text-anchor="end" font-family="{SANS}" font-size="30" fill="{RED_DEEP}" opacity=".85">⛩️</text></g>
 </svg>"""
 
