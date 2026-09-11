@@ -1,0 +1,73 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="terminal hero">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0b1120"/></linearGradient>
+<linearGradient id="tb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111a2e"/><stop offset="1" stop-color="#0d1424"/></linearGradient>
+<linearGradient id="pg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d32f2f"/><stop offset="1" stop-color="#ff4d4d"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#101a30" stroke-width="1"/></pattern>
+<clipPath id="pc"><rect x="360" y="386" width="120" height="4" rx="2"/></clipPath>
+<style>
+@keyframes blink{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}
+@keyframes sweep{0%{transform:translateY(-6px)}100%{transform:translateY(414px)}}
+@keyframes led{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes bar{0%{transform:translateX(-124px)}100%{transform:translateX(124px)}}
+@keyframes drift{0%{transform:translate(0,0)}100%{transform:translate(14px,-18px)}}
+@keyframes type0{0%,5.0%{transform:translateX(0);animation-timing-function:steps(6)}10.45%,100%{transform:translateX(54px)}}
+@keyframes show0{0%,12.638%{opacity:0}14.2%,93.125%{opacity:1}98.75%,100%{opacity:0}}
+@keyframes tcur0{0%,5.0%{transform:translateX(0);animation-timing-function:steps(6)}10.45%,100%{transform:translateX(54px)}}
+@keyframes ocur0{0%,4.688%{opacity:0}5.0%,12.325%{opacity:1}12.95%,100%{opacity:0}}
+@keyframes type1{0%,17.637%{transform:translateX(0);animation-timing-function:steps(13)}25.8%,100%{transform:translateX(117px)}}
+@keyframes show1{0%,27.987%{opacity:0}29.55%,93.125%{opacity:1}98.75%,100%{opacity:0}}
+@keyframes tcur1{0%,17.637%{transform:translateX(0);animation-timing-function:steps(13)}25.8%,100%{transform:translateX(117px)}}
+@keyframes ocur1{0%,17.325%{opacity:0}17.637%,27.675%{opacity:1}28.3%,100%{opacity:0}}
+@keyframes type2{0%,32.988%{transform:translateX(0);animation-timing-function:steps(20)}43.863%,100%{transform:translateX(180px)}}
+@keyframes show2{0%,46.05%{opacity:0}47.613%,93.125%{opacity:1}98.75%,100%{opacity:0}}
+@keyframes tcur2{0%,32.988%{transform:translateX(0);animation-timing-function:steps(20)}43.863%,100%{transform:translateX(180px)}}
+@keyframes ocur2{0%,32.675%{opacity:0}32.988%,45.738%{opacity:1}46.363%,100%{opacity:0}}
+@keyframes type3{0%,51.05%{transform:translateX(0);animation-timing-function:steps(20)}61.925%,100%{transform:translateX(180px)}}
+@keyframes show3{0%,64.112%{opacity:0}65.675%,93.125%{opacity:1}98.75%,100%{opacity:0}}
+@keyframes tcur3{0%,51.05%{transform:translateX(0);animation-timing-function:steps(20)}61.925%,100%{transform:translateX(180px)}}
+@keyframes ocur3{0%,50.737%{opacity:0}51.05%,63.8%{opacity:1}64.425%,100%{opacity:0}}
+@keyframes cyclefade{0%,93.125%{opacity:1}98.75%,100%{opacity:0}}.cov0{animation:type0 16.0s linear infinite}
+.cg0{animation:tcur0 16.0s steps(1) infinite,ocur0 16.0s linear infinite}
+.out0{animation:show0 16.0s linear infinite}
+.ln0{animation:cyclefade 16.0s linear infinite}
+.cov1{animation:type1 16.0s linear infinite}
+.cg1{animation:tcur1 16.0s steps(1) infinite,ocur1 16.0s linear infinite}
+.out1{animation:show1 16.0s linear infinite}
+.ln1{animation:cyclefade 16.0s linear infinite}
+.cov2{animation:type2 16.0s linear infinite}
+.cg2{animation:tcur2 16.0s steps(1) infinite,ocur2 16.0s linear infinite}
+.out2{animation:show2 16.0s linear infinite}
+.ln2{animation:cyclefade 16.0s linear infinite}
+.cov3{animation:type3 16.0s linear infinite}
+.cg3{animation:tcur3 16.0s steps(1) infinite,ocur3 16.0s linear infinite}
+.out3{animation:show3 16.0s linear infinite}
+.ln3{animation:cyclefade 16.0s linear infinite}
+.cur{animation:blink .9s steps(1) infinite}
+.sweep{animation:sweep 16.0s linear infinite}
+.led{animation:led 2s ease-in-out infinite}
+.bar{animation:bar 2.6s linear infinite}
+.p0{animation:drift 7s ease-in-out infinite alternate}
+.p1{animation:drift 9s ease-in-out infinite alternate .8s}
+.p2{animation:drift 11s ease-in-out infinite alternate 2s}
+text{user-select:none}</style>
+</defs>
+<rect width="900" height="420" fill="url(#bg)"/>
+<rect width="900" height="420" fill="url(#grid)"/>
+<!-- terminal window: SOLID interior so typing covers blend invisibly -->
+<rect x="10" y="10" width="880" height="400" rx="16" fill="#0d1526" stroke="#1c2740" stroke-width="1"/>
+<path d="M10 26a16 16 0 0 1 16-16h848a16 16 0 0 1 16 16v28H10Z" fill="url(#tb)"/>
+<line x1="10" y1="54" x2="890" y2="54" stroke="#1c2740" stroke-width="1"/>
+<circle cx="38" cy="32" r="6.5" fill="#ff5f57"/><circle cx="64" cy="32" r="6.5" fill="#febc2e"/>
+<circle class="led" cx="90" cy="32" r="6.5" fill="#28c840"/>
+<text x="450" y="37" text-anchor="middle" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#9aa8bf">anurag@dev-os — ~/portfolio</text>
+<text x="866" y="37" text-anchor="end" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#5c6b82">zsh · 96×24</text>
+<rect class="sweep" x="10" y="0" width="880" height="3" fill="#4d8dff" opacity=".07"/>
+<g class="ln0"><text x="40" y="96" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#ff4d4d">$</text><text x="64" y="96" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e8eef7">whoami</text><g class="cov0"><rect x="63" y="80" width="70" height="25" fill="#0d1526"/></g><g class="cg0"><rect class="cur" x="64" y="83" width="8" height="13" fill="#e8eef7"/></g><text class="out0" x="64" y="130" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#9aa8bf">anurag_mishra · full-stack engineer · NIT Patna CSE</text></g><g class="ln1"><text x="40" y="164" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#ff4d4d">$</text><text x="64" y="164" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e8eef7">cat stack.txt</text><g class="cov1"><rect x="63" y="148" width="133" height="25" fill="#0d1526"/></g><g class="cg1"><rect class="cur" x="64" y="151" width="8" height="13" fill="#e8eef7"/></g><text class="out1" x="64" y="198" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#9aa8bf">TypeScript ▸ React ▸ Next.js ▸ Node ▸ Django ▸ PostgreSQL</text></g><g class="ln2"><text x="40" y="232" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#ff4d4d">$</text><text x="64" y="232" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e8eef7">git log --oneline -1</text><g class="cov2"><rect x="63" y="216" width="196" height="25" fill="#0d1526"/></g><g class="cg2"><rect class="cur" x="64" y="219" width="8" height="13" fill="#e8eef7"/></g><text class="out2" x="64" y="266" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#9aa8bf">f1a2c3d ▸ feat: ship career-pilot — 129★ · 758 forks</text></g><g class="ln3"><text x="40" y="300" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#ff4d4d">$</text><text x="64" y="300" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e8eef7">./focus --mode=build</text><g class="cov3"><rect x="63" y="284" width="196" height="25" fill="#0d1526"/></g><g class="cg3"><rect class="cur" x="64" y="287" width="8" height="13" fill="#e8eef7"/></g><text class="out3" x="64" y="334" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#9aa8bf">⚡ building AI tools · open to internships &amp; OSS</text></g>
+<line x1="10" y1="374" x2="890" y2="374" stroke="#1c2740" stroke-width="1"/>
+<text x="40" y="392" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#3ddc84">● main</text><text x="110" y="392" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#5c6b82">↑2 ↓0</text><text x="196" y="392" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#5c6b82">deploying portfolio…</text><rect x="360" y="386" width="120" height="4" rx="2" fill="#1c2740"/><g clip-path="url(#pc)"><g class="bar"><rect x="360" y="386" width="56" height="4" fill="url(#pg)"/></g></g><text x="866" y="392" text-anchor="end" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#5c6b82">utf-8 · lf · v2026.09</text>
+<circle class="p0" cx="700" cy="120" r="2.2" fill="#ff4d4d" opacity=".5"/><circle class="p1" cx="820" cy="200" r="1.6" fill="#4d8dff" opacity=".45"/><circle class="p2" cx="640" cy="300" r="1.8" fill="#ffb454" opacity=".4"/>
+<g stroke="#d32f2f" stroke-width="2" fill="none" opacity=".8">
+<path d="M2 30V10h20"/><path d="M878 10h20v20"/><path d="M2 390v20h20"/><path d="M878 410h20v-20"/>
+</g>
+</svg>

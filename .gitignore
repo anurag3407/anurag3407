@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# render-check artifacts (preview SVGs are regenerable on demand)
+assets/preview/
+
+# python
+__pycache__/

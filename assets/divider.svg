@@ -1,0 +1,18 @@
+<svg width="900" height="30" viewBox="0 0 900 30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="divider">
+<defs><style>
+@keyframes travel{0%{transform:translateX(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateX(840px);opacity:0}}
+@keyframes travel2{0%{transform:translateX(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateX(-840px);opacity:0}}
+.d1{animation:travel 2.8s cubic-bezier(.4,0,.6,1) infinite}
+.d2{animation:travel2 2.8s cubic-bezier(.4,0,.6,1) infinite}
+</style>
+<linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1c2740" stop-opacity="0"/><stop offset="1" stop-color="#1c2740"/></linearGradient>
+<linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1c2740"/><stop offset="1" stop-color="#1c2740" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="30" y="14" width="400" height="2" fill="url(#fadeL)"/>
+<rect x="470" y="14" width="400" height="2" fill="url(#fadeR)"/>
+<rect x="432" y="9" width="36" height="12" rx="6" fill="none" stroke="#d32f2f" stroke-width="1.4"/>
+<circle cx="436" cy="15" r="2.2" fill="#ff4d4d"/>
+<circle cx="464" cy="15" r="2.2" fill="#ff4d4d"/>
+<g class="d1"><circle cx="30" cy="15" r="3" fill="#ff4d4d"/><circle cx="30" cy="15" r="6.5" fill="#ff4d4d" opacity=".3"/></g>
+<g class="d2"><circle cx="870" cy="15" r="3" fill="#4d8dff"/><circle cx="870" cy="15" r="6.5" fill="#4d8dff" opacity=".3"/></g>
+</svg>

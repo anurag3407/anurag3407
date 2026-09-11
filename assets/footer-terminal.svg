@@ -1,0 +1,19 @@
+<svg width="900" height="170" viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer terminal">
+<defs><style>
+@keyframes blink2{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}
+@keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.cur2{animation:blink2 1s steps(1) infinite}
+.who{animation:rise 4s ease-in-out infinite}
+text{user-select:none}</style>
+<linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1120" stop-opacity="0"/><stop offset="1" stop-color="#070b14"/></linearGradient>
+</defs>
+<rect width="900" height="170" fill="url(#fbg)" rx="14"/>
+<text x="60" y="52" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#ff4d4d">$</text>
+<text x="84" y="52" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#e8eef7">exit</text>
+<rect class="cur2" x="124" y="38" width="9" height="16" fill="#e8eef7"/>
+<text x="84" y="84" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#9aa8bf">session closed · thanks for scrolling — 100% ▓▓▓▓▓▓</text>
+<text x="84" y="112" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#3ddc84">◈ crafted by hand with raw SVG — zero templates</text>
+<text x="84" y="140" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#5c6b82">reconnect →</text>
+<text x="184" y="140" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#4d8dff">linkedin/anurag3407 · x/anurag3407 · anurag3407.dev</text>
+<g class="who"><text x="840" y="128" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="30" fill="#d32f2f" opacity=".85">⛩️</text></g>
+</svg>

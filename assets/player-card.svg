@@ -1,0 +1,39 @@
+<svg width="880" height="380" viewBox="0 0 880 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="player card">
+<defs>
+<linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0b1120"/></linearGradient>
+<linearGradient id="lv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff4d4d"/><stop offset="1" stop-color="#d32f2f"/></linearGradient>
+<style>
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:.2}}
+@keyframes shimmer{0%{transform:translateX(-440px)}100%{transform:translateX(440px)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.ring{transform-box:fill-box;transform-origin:center;animation:spin 14s linear infinite}
+.ring2{transform-box:fill-box;transform-origin:center;animation:spin 22s linear infinite reverse}
+.glow{animation:pulse 2.4s ease-in-out infinite}
+.shm{animation:shimmer 3.2s linear infinite}
+.am{animation:float 5s ease-in-out infinite}
+text{user-select:none}</style>
+</defs>
+<rect width="880" height="380" rx="18" fill="url(#pbg)" stroke="#1c2740" stroke-width="1"/>
+<g class="am">
+<circle class="glow" cx="110" cy="180" r="74" fill="#d32f2f" opacity=".08"/>
+<circle class="ring" cx="110" cy="180" r="70" fill="none" stroke="#d32f2f" stroke-width="1.5" stroke-dasharray="4 10" opacity=".7"/>
+<circle class="ring2" cx="110" cy="180" r="62" fill="none" stroke="#4d8dff" stroke-width="1" stroke-dasharray="2 14" opacity=".5"/>
+<polygon points="110.0,128.0 155.0,154.0 155.0,206.0 110.0,232.0 65.0,206.0 65.0,154.0" fill="#101a30" stroke="#1c2740" stroke-width="1.5"/>
+<text x="110" y="176" text-anchor="middle" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="34" font-weight="700" fill="#e8eef7">AM</text>
+<text x="110" y="200" text-anchor="middle" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#ff4d4d">lvl 02</text>
+</g>
+<text x="230" y="84" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="30" font-weight="800" fill="#e8eef7">Anurag Mishra</text>
+<text x="230" y="112" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ff4d4d">Class: Full-Stack Mage · Guild: NIT Patna (CSE)</text>
+<text x="230" y="140" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#9aa8bf">motto: break first, build later — every bug is a duel.</text>
+<rect x="230" y="156" width="120" height="24" rx="12" fill="url(#lv)"/>
+<text x="290" y="172" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" fill="#fff">▲ MAIN QUEST</text>
+<text x="366" y="172" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11.5" fill="#9aa8bf">ship career-pilot v2 · grind DSA · land the internship</text>
+<text x="230" y="222" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" fill="#9aa8bf">HP · coffee</text><text x="650" y="222" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="800" fill="#ffb454">88<tspan fill="#5c6b82" font-weight="400">/100</tspan></text><rect x="230" y="229" width="420" height="7" rx="3.5" fill="#1c2740"/><clipPath id="c-hp"><rect x="230" y="229" width="369" height="7" rx="3.5"/></clipPath><g clip-path="url(#c-hp)"><rect x="230" y="229" width="369" height="7" fill="#ffb454"/><g class="shm"><rect x="230" y="229" width="70" height="7" fill="#e8eef7" opacity=".18"/></g></g><text x="230" y="253" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#5c6b82">sustained by espresso and curiosity</text>
+<text x="230" y="262" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" fill="#9aa8bf">MP · sleep</text><text x="650" y="262" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="800" fill="#4d8dff">41<tspan fill="#5c6b82" font-weight="400">/100</tspan></text><rect x="230" y="269" width="420" height="7" rx="3.5" fill="#1c2740"/><clipPath id="c-mp"><rect x="230" y="269" width="172" height="7" rx="3.5"/></clipPath><g clip-path="url(#c-mp)"><rect x="230" y="269" width="172" height="7" fill="#4d8dff"/><g class="shm"><rect x="230" y="269" width="70" height="7" fill="#e8eef7" opacity=".18"/></g></g><text x="230" y="293" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#5c6b82">sacrificed to side-projects and hack nights</text>
+<text x="230" y="302" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" fill="#9aa8bf">XP · typescript</text><text x="650" y="302" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="800" fill="#ff4d4d">76<tspan fill="#5c6b82" font-weight="400">/100</tspan></text><rect x="230" y="309" width="420" height="7" rx="3.5" fill="#1c2740"/><clipPath id="c-xp"><rect x="230" y="309" width="319" height="7" rx="3.5"/></clipPath><g clip-path="url(#c-xp)"><rect x="230" y="309" width="319" height="7" fill="#ff4d4d"/><g class="shm"><rect x="230" y="309" width="70" height="7" fill="#e8eef7" opacity=".18"/></g></g><text x="230" y="333" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#5c6b82">47 of 140 repos fluent in the typed arts</text>
+<text x="60" y="356" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" fill="#9aa8bf">STR · backend</text><text x="240" y="356" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="800" fill="#d32f2f">84</text><rect x="60" y="361" width="180" height="6" rx="3" fill="#1c2740"/><rect x="60" y="361" width="151" height="6" rx="3" fill="#d32f2f"/>
+<text x="262" y="356" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" fill="#9aa8bf">DEX · frontend</text><text x="442" y="356" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="800" fill="#4d8dff">91</text><rect x="262" y="361" width="180" height="6" rx="3" fill="#1c2740"/><rect x="262" y="361" width="163" height="6" rx="3" fill="#4d8dff"/>
+<text x="464" y="356" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" fill="#9aa8bf">INT · ai/agents</text><text x="644" y="356" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="800" fill="#3ddc84">87</text><rect x="464" y="361" width="180" height="6" rx="3" fill="#1c2740"/><rect x="464" y="361" width="156" height="6" rx="3" fill="#3ddc84"/>
+<text x="668" y="356" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700" fill="#9aa8bf">CHA · shipping</text><text x="848" y="356" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="800" fill="#ffb454">89</text><rect x="668" y="361" width="180" height="6" rx="3" fill="#1c2740"/><rect x="668" y="361" width="160" height="6" rx="3" fill="#ffb454"/>
+</svg>
