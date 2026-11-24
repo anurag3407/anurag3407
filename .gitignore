@@ -6,3 +6,4 @@ assets/preview/
 
 # python
 __pycache__/
+tools/.venv/

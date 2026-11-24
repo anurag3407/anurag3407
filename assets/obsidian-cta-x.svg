@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="46" viewBox="0 0 210 46" role="img" aria-label="X / TWITTER">
+<defs>
+
+<linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0C0C11"/>
+  <stop offset="1" stop-color="#07070A"/>
+</linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1D1D26" stop-opacity="0"/>
+  <stop offset="0.35" stop-color="#383846" stop-opacity="0.9"/>
+  <stop offset="0.65" stop-color="#4A4A5C" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#1D1D26" stop-opacity="0"/>
+</linearGradient>
+<pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#111118" stroke-width="0.8"/>
+</pattern>
+
+<style>@media(prefers-reduced-motion:reduce){*{animation:none!important}}text{user-select:none}</style>
+</defs>
+<rect width="210" height="46" rx="10" fill="#050507"/><rect x="0.5" y="0.5" width="209" height="45" rx="10" fill="url(#cardBg)" stroke="#1D1D26" stroke-width="1"/><line x1="10.5" y1="1.25" x2="199.5" y2="1.25" stroke="url(#rim)" stroke-width="1"/><circle cx="18" cy="23" r="3" fill="#A0A0AE"/><text x="30.0" y="21.0" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" fill="#F4F4F6" text-anchor="start" letter-spacing="0.9">X / TWITTER</text><text x="30.0" y="35.0" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9.5" font-weight="500" fill="#626270" text-anchor="start">@anurag3407</text><text x="194.0" y="27.0" font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#A0A0AE" text-anchor="end">↗</text>
+</svg>
