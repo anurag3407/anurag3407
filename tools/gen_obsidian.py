@@ -387,109 +387,37 @@ def gen_divider(preview=False):
 
 
 # =============================================================================
-# 3. PROJECT 01 — SAYABOT (900 x 430) — Exact 3 Bot Mascots + Room Specs
+# 3. PROJECT 01 — SAYABOT (900 x 430) — Sleek Obsidian Agent Room (no mascots)
 # =============================================================================
-def mascot_pocket_saya(x, y, scale=0.22, color=SAYA_ORANGE, cls=""):
-    """Exact Pocket Saya (bot-a / avatar.svg) mascot from anurag3407/sayabot."""
-    return (
-        f'<g class="{cls}" transform="translate({x:.1f} {y:.1f}) scale({scale:.4f})">'
-        f'<g fill="{color}">'
-        f'<circle cx="128" cy="26" r="14"/>'
-        f'<circle cx="125" cy="22" r="4.5" fill="#FFC4AD"/>'
-        f'<rect x="124" y="36" width="8" height="22" rx="4"/>'
-        f'<rect x="22" y="98" width="22" height="48" rx="11"/>'
-        f'<rect x="212" y="98" width="22" height="48" rx="11"/>'
-        f'<rect x="36" y="54" width="184" height="152" rx="60"/>'
-        f'</g>'
-        f'<rect x="52" y="70" width="152" height="120" rx="44" fill="#0B0E0C"/>'
-        f'<ellipse cx="74" cy="142" rx="8" ry="4" fill="{color}" opacity="0.45"/>'
-        f'<ellipse cx="182" cy="142" rx="8" ry="4" fill="{color}" opacity="0.45"/>'
-        f'<ellipse cx="94" cy="122" rx="16" ry="22" fill="#FFFFFF"/>'
-        f'<ellipse cx="162" cy="122" rx="16" ry="22" fill="#FFFFFF"/>'
-        f'<path d="M 118 144 Q 128 156 138 144" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round"/>'
-        f'<circle cx="99" cy="115" r="6.5" fill="#0B0E0C" opacity="0.18"/>'
-        f'<circle cx="167" cy="115" r="6.5" fill="#0B0E0C" opacity="0.18"/>'
-        f'</g>'
-    )
-
-
-def mascot_monitor_roomie(x, y, scale=0.22, color=INDIGO, cls=""):
-    """Exact Monitor Roomie (bot-b.svg) mascot from anurag3407/sayabot."""
-    return (
-        f'<g class="{cls}" transform="translate({x:.1f} {y:.1f}) scale({scale:.4f})">'
-        f'<g fill="{color}">'
-        f'<path d="M 78 48 L 56 18 C 53 14 56 8 62 8 C 65 8 68 10 71 14 L 96 46 Z"/>'
-        f'<path d="M 178 48 L 200 18 C 203 14 200 8 194 8 C 191 8 188 10 185 14 L 160 46 Z"/>'
-        f'<rect x="36" y="44" width="184" height="168" rx="52"/>'
-        f'<rect x="74" y="212" width="36" height="18" rx="9"/>'
-        f'<rect x="146" y="212" width="36" height="18" rx="9"/>'
-        f'</g>'
-        f'<rect x="52" y="60" width="152" height="136" rx="38" fill="#0B0E0C"/>'
-        f'<g fill="#FFFFFF">'
-        f'<path d="M 76 128 C 76 108 92 98 106 104 C 114 108 116 118 110 126 C 104 134 94 134 88 132 L 86 138 C 82 140 76 136 76 128 Z"/>'
-        f'<path d="M 180 128 C 180 108 164 98 150 104 C 142 108 140 118 146 126 C 152 134 162 134 168 132 L 170 138 C 174 140 180 136 180 128 Z"/>'
-        f'<circle cx="128" cy="136" r="6" fill="{color}"/>'
-        f'<path d="M 118 154 Q 128 164 138 154" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>'
-        f'</g></g>'
-    )
-
-
-def mascot_astro_bot(x, y, scale=0.22, color=EMERALD, cls=""):
-    """Exact Astro Bot (bot-c.svg) mascot from anurag3407/sayabot."""
-    return (
-        f'<g class="{cls}" transform="translate({x:.1f} {y:.1f}) scale({scale:.4f})">'
-        f'<g fill="{color}">'
-        f'<ellipse cx="128" cy="24" rx="24" ry="8"/>'
-        f'<rect x="124" y="26" width="8" height="18"/>'
-        f'<rect x="22" y="98" width="24" height="52" rx="12"/>'
-        f'<rect x="210" y="98" width="24" height="52" rx="12"/>'
-        f'<circle cx="128" cy="124" r="86"/>'
-        f'<circle cx="56" cy="208" r="18"/>'
-        f'<circle cx="200" cy="208" r="18"/>'
-        f'</g>'
-        f'<path d="M 64 124 C 64 92 92 78 128 78 C 164 78 192 92 192 124 C 192 154 164 164 128 164 C 92 164 64 154 64 124 Z" fill="#0B0E0C"/>'
-        f'<rect x="90" y="102" width="22" height="34" rx="11" fill="#FFFFFF"/>'
-        f'<rect x="144" y="102" width="22" height="34" rx="11" fill="#FFFFFF"/>'
-        f'<path d="M 120 144 Q 128 152 136 144" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>'
-        f'</g>'
-    )
-
-
 def gen_sayabot(preview=False):
     W, H = 900, 430
     css = "" if preview else """
-@keyframes bobA{0%,100%{transform:translateY(0)}50%{transform:translateY(-3.5px)}}
-@keyframes bobB{0%,100%{transform:translateY(0)}50%{transform:translateY(-3.5px)}}
-@keyframes bobC{0%,100%{transform:translateY(0)}50%{transform:translateY(-3.5px)}}
 @keyframes busFlow{0%{transform:translateY(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(176px);opacity:0}}
 @keyframes gatePulse{0%,100%{opacity:1}50%{opacity:.4}}
-.mbA{animation:bobA 2.8s ease-in-out infinite}
-.mbB{animation:bobB 3.2s ease-in-out infinite .6s}
-.mbC{animation:bobC 2.6s ease-in-out infinite 1.2s}
 .bsf{animation:busFlow 3s cubic-bezier(.4,0,.2,1) infinite}
 .gp{animation:gatePulse 1.8s ease-in-out infinite}
 """
     defs = f"""
 <radialGradient id="sayaGlow" cx="0.80" cy="0.35" r="0.58">
-  <stop offset="0" stop-color="{SAYA_ORANGE}" stop-opacity="0.075"/>
-  <stop offset="0.55" stop-color="{INDIGO}" stop-opacity="0.035"/>
+  <stop offset="0" stop-color="{EMERALD}" stop-opacity="0.06"/>
+  <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.02"/>
   <stop offset="1" stop-color="{VOID}" stop-opacity="0"/>
 </radialGradient>
 """
     # Left column
     eyebrow = (
         f'<rect x="38" y="30" width="248" height="24" rx="12" fill="{WELL}" stroke="{BORDER_HI}"/>'
-        f'<circle class="gp" cx="52" cy="42" r="3.2" fill="{SAYA_ORANGE}"/>'
+        f'<circle class="gp" cx="52" cy="42" r="3.2" fill="{EMERALD}"/>'
         + txt("01 / MULTI-AGENT ROOM · FEATURED", 62, 45.5, 9.5, MONO, INK, "600", spacing=0.9)
     )
     title = path_text("Sayabot", FONT_HELV_BOLD, 44, 38, 108, tracking=-1.4, fill=INK)
-    title_dot = f'<circle cx="212" cy="104" r="4.5" fill="{SAYA_ORANGE}"/>'
+    title_dot = f'<circle cx="212" cy="104" r="4.5" fill="{EMERALD}"/>'
     subtitle = txt("The shared room where your team and coding agents work together.", 40, 134, 14.5, SANS, INK_2, "400")
 
     features = [
-        ("MCP INVITE", SAYA_ORANGE, "Claude Code, Codex, Cursor, Hermes & ChatGPT via MCP."),
+        ("MCP INVITE", INK, "Claude Code, Codex, Cursor, Hermes & ChatGPT via MCP."),
         ("HUMAN GATE", EMBER, "Deploys & shell pause on a 5-min card. AES-256-GCM."),
-        ("SANDBOX", INDIGO, "Isolated /home/bot Linux Docker box + egress proxy."),
+        ("SANDBOX", ICE, "Isolated /home/bot Linux Docker box + egress proxy."),
         ("LIVE CANVAS", EMERALD, "Shared Markdown/SVG/HTML + Mac, Win & Android."),
     ]
     fy = 160
@@ -521,45 +449,46 @@ def gen_sayabot(preview=False):
 
     cta = (
         txt("EXPLORE WORKSPACE", 40, 386, 10.5, MONO, INK, "700", spacing=1.1)
-        + txt("↗", 190, 386, 13, SANS, SAYA_ORANGE, "700")
+        + txt("↗", 190, 386, 13, SANS, EMERALD, "700")
         + txt("github.com/anurag3407/sayabot  ·  Mac / Win / Android", 212, 386, 10.5, MONO, INK_3, "400")
     )
 
-    # Right column: Live Bot Room + All 3 Mascots
+    # Right column: Sleek Obsidian Agent Room (no colorful mascots)
     rx, ry, rw, rh = 556, 26, 314, 378
     room_hdr = (
         f'<rect x="{rx}" y="{ry}" width="{rw}" height="{rh}" rx="16" fill="#07070B" stroke="{BORDER_HI}"/>'
         f'<circle cx="{rx+18}" cy="{ry+22}" r="3" fill="{EMERALD}"/>'
         + txt("ROOM: #LAUNCH-WEEK", rx + 29, ry + 25.5, 9.8, MONO, INK, "700", spacing=0.8)
-        + txt("3 BOTS ONLINE", rx + rw - 16, ry + 25.5, 9.2, MONO, SAYA_ORANGE, "700", anchor="end", spacing=0.7)
+        + txt("3 AGENTS ACTIVE", rx + rw - 16, ry + 25.5, 9.2, MONO, EMERALD, "700", anchor="end", spacing=0.6)
         + f'<line x1="{rx+14}" y1="{ry+40}" x2="{rx+rw-14}" y2="{ry+40}" stroke="{BORDER}"/>'
         # Vertical agent bus trace
-        + f'<line x1="{rx+43}" y1="{ry+78}" x2="{rx+43}" y2="{ry+272}" stroke="{BORDER_HI}" stroke-width="1.4" stroke-dasharray="3 3"/>'
-        + ("" if preview else f'<circle class="bsf" cx="{rx+43}" cy="{ry+78}" r="3" fill="{SAYA_ORANGE}"/>')
+        + f'<line x1="{rx+34}" y1="{ry+86}" x2="{rx+34}" y2="{ry+268}" stroke="{BORDER_HI}" stroke-width="1.4" stroke-dasharray="3 3"/>'
+        + ("" if preview else f'<circle class="bsf" cx="{rx+34}" cy="{ry+86}" r="3" fill="{EMERALD}"/>')
     )
 
-    bots = [
-        ("POCKET SAYA", "Claude Code · Room Lead", "Claimed task #12 · editing canvas", SAYA_ORANGE, mascot_pocket_saya, "mbA"),
-        ("MONITOR ROOMIE", "Codex · Sandbox Runner", "Running Playwright in /home/bot", INDIGO, mascot_monitor_roomie, "mbB"),
-        ("ASTRO BOT", "Hermes · Guarded Deploy", "Waiting: deploy.sh --env prod", EMERALD, mascot_astro_bot, "mbC"),
+    agents = [
+        ("01", "CLAUDE CODE", "Room Lead · MCP Connected", "Claimed task #12 · editing canvas", INK),
+        ("02", "CODEX CLI", "Sandbox · /home/bot", "Running Playwright suite · 14/14 ok", ICE),
+        ("03", "HERMES AGENT", "Deploy Pipeline · Guarded", "Paused at deploy.sh --env prod", EMERALD),
     ]
     bots_svg = []
-    for i, (bname, brole, bstat, bcol, mfn, mcls) in enumerate(bots):
+    for i, (num, aname, arole, astat, acol) in enumerate(agents):
         by = ry + 52 + i * 82
         bots_svg.append(
-            f'<rect x="{rx+14}" y="{by}" width="{rw-28}" height="70" rx="11" fill="{CARD_HI}" stroke="{BORDER}" stroke-width="1"/>'
-            + mfn(rx + 20, by + 10, scale=0.195, color=bcol, cls="" if preview else mcls)
-            + txt(bname, rx + 80, by + 23, 10.2, MONO, INK, "700", spacing=0.7)
-            + txt(brole, rx + 80, by + 39, 10.2, SANS, bcol, "600")
-            + txt(bstat, rx + 80, by + 55, 10.2, SANS, INK_3, "400")
+            f'<circle cx="{rx+34}" cy="{by+35}" r="5" fill="#0D0D13" stroke="{acol}" stroke-width="1.5"/>'
+            f'<rect x="{rx+50}" y="{by}" width="{rw-64}" height="70" rx="10" fill="{CARD_HI}" stroke="{BORDER}" stroke-width="1"/>'
+            + txt(num, rx + 64, by + 23, 9.2, MONO, INK_3, "700")
+            + txt(aname, rx + 84, by + 23, 10.2, MONO, INK, "700", spacing=0.7)
+            + txt(arole, rx + 64, by + 40, 10.2, SANS, acol, "500")
+            + txt(astat, rx + 64, by + 56, 10.0, SANS, INK_3, "400")
         )
 
     # Approval Gate Card at bottom of room
     ay = ry + 306
     approval_card = (
-        f'<rect x="{rx+14}" y="{ay}" width="{rw-28}" height="56" rx="10" fill="#120E0D" stroke="{SAYA_ORANGE}" stroke-opacity="0.45"/>'
-        f'<circle class="gp" cx="{rx+28}" cy="{ay+20}" r="3" fill="{SAYA_ORANGE}"/>'
-        + txt("APPROVAL GATE · 04:58", rx + 39, ay + 23.5, 9.2, MONO, SAYA_ORANGE, "700", spacing=0.8)
+        f'<rect x="{rx+14}" y="{ay}" width="{rw-28}" height="56" rx="10" fill="#0C110F" stroke="{EMERALD}" stroke-opacity="0.4"/>'
+        f'<circle class="gp" cx="{rx+28}" cy="{ay+20}" r="3" fill="{EMBER}"/>'
+        + txt("APPROVAL GATE · 04:58", rx + 39, ay + 23.5, 9.2, MONO, INK, "700", spacing=0.8)
         + txt("deploy.sh --env production", rx + 28, ay + 41, 10.2, MONO, INK_2, "400")
         + f'<rect x="{rx+220}" y="{ay+14}" width="66" height="26" rx="6" fill="{EMERALD}" fill-opacity="0.16" stroke="{EMERALD}" stroke-opacity="0.6"/>'
         + txt("APPROVE", rx + 253, ay + 30.5, 8.8, MONO, EMERALD, "700", anchor="middle", spacing=0.6)

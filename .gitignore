@@ -7,3 +7,6 @@ assets/preview/
 # python
 __pycache__/
 tools/.venv/
+
+# cloudflare wrangler
+.wrangler/

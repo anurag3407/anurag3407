@@ -18,6 +18,12 @@
   <a href="#04--connect">Connect</a>
 </sub>
 
+<br/><br/>
+
+<a href="https://anurag3407-click-tracker.anuragmishra3407.workers.dev/go">
+  <img src="https://anurag3407-click-tracker.anuragmishra3407.workers.dev/views.svg" width="900" alt="Live profile click & visit telemetry — github.com/anurag3407/" />
+</a>
+
 </div>
 
 <br/>
@@ -116,7 +122,7 @@
 
 <br/>
 
-<a href="https://github.com/anurag3407"><img src="./assets/obsidian-link-github.svg" width="24%" alt="GitHub @anurag3407" /></a>&nbsp;<a href="https://linkedin.com/in/anurag3407"><img src="./assets/obsidian-link-linkedin.svg" width="24%" alt="LinkedIn /in/anurag3407" /></a>&nbsp;<a href="https://x.com/anurag3407"><img src="./assets/obsidian-link-x.svg" width="24%" alt="X / Twitter @anurag3407" /></a>&nbsp;<a href="mailto:anuragmishra3407@gmail.com"><img src="./assets/obsidian-link-email.svg" width="24%" alt="Email anuragmishra3407@gmail.com" /></a>
+<a href="https://anurag3407-click-tracker.anuragmishra3407.workers.dev/go"><img src="./assets/obsidian-link-github.svg" width="24%" alt="GitHub @anurag3407" /></a>&nbsp;<a href="https://linkedin.com/in/anurag3407"><img src="./assets/obsidian-link-linkedin.svg" width="24%" alt="LinkedIn /in/anurag3407" /></a>&nbsp;<a href="https://x.com/anurag3407"><img src="./assets/obsidian-link-x.svg" width="24%" alt="X / Twitter @anurag3407" /></a>&nbsp;<a href="mailto:anuragmishra3407@gmail.com"><img src="./assets/obsidian-link-email.svg" width="24%" alt="Email anuragmishra3407@gmail.com" /></a>
 
 <br/><br/>
 
