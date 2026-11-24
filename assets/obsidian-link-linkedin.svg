@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="76" viewBox="0 0 216 76" role="img" aria-label="LINKEDIN link card">
+<defs>
+
+<linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0C0C11"/>
+  <stop offset="1" stop-color="#07070A"/>
+</linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1D1D26" stop-opacity="0"/>
+  <stop offset="0.35" stop-color="#383846" stop-opacity="0.9"/>
+  <stop offset="0.65" stop-color="#4A4A5C" stop-opacity="0.9"/>
+  <stop offset="1" stop-color="#1D1D26" stop-opacity="0"/>
+</linearGradient>
+<pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#111118" stroke-width="0.8"/>
+</pattern>
+<clipPath id="lk_linkedin"><rect x="1" y="1" width="214" height="74" rx="14"/></clipPath>
+<style>@media(prefers-reduced-motion:reduce){*{animation:none!important}}text{user-select:none}
+@keyframes lkPulse{0%,100%{opacity:1}50%{opacity:.3}}
+.lkp{animation:lkPulse 2.4s ease-in-out infinite}
+</style>
+</defs>
+<rect width="216" height="76" rx="14" fill="#050507"/><g clip-path="url(#lk_linkedin)"><rect width="216" height="76" fill="url(#cardBg)"/><rect x="14" y="18" width="26" height="36" rx="8" fill="#13131B" stroke="#1D1D26" opacity="0"/><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="#60A5FA" transform="translate(18.0 27.0) scale(0.7500)"/><text x="48.0" y="34.0" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" fill="#F4F4F6" text-anchor="start" letter-spacing="0.8">LINKEDIN</text><text x="48.0" y="51.0" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9.8" font-weight="500" fill="#646473" text-anchor="start">/in/anurag3407</text><circle class="lkp" cx="196" cy="22" r="2.5" fill="#60A5FA"/><text x="200.0" y="54.0" font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#A2A2B0" text-anchor="end">↗</text></g><rect x="0.5" y="0.5" width="215" height="75" rx="14" fill="none" stroke="#1D1D26" stroke-width="1"/><line x1="14" y1="0.75" x2="202" y2="0.75" stroke="url(#rim)" stroke-width="1"/>
+</svg>

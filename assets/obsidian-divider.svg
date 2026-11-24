@@ -15,5 +15,5 @@
 .pL{animation:glideL 3.4s cubic-bezier(.4,0,.2,1) infinite 1.7s}
 </style>
 </defs>
-<rect x="20" y="11.5" width="860" height="1" fill="url(#dl)"/><polygon points="450,7 455,12 450,17 445,12" fill="#0A0A0E" stroke="#2E2E3B" stroke-width="1"/><circle cx="450" cy="12" r="1.5" fill="#10B981"/><g class="pR"><rect x="24" y="11" width="44" height="2" rx="1" fill="#F4F4F6" opacity="0.75"/></g><g class="pL"><rect x="832" y="11" width="44" height="2" rx="1" fill="#10B981" opacity="0.75"/></g>
+<rect x="20" y="11.5" width="860" height="1" fill="url(#dl)"/><polygon points="450,7 455,12 450,17 445,12" fill="#0A0A0E" stroke="#2E2E3C" stroke-width="1"/><circle cx="450" cy="12" r="1.5" fill="#10B981"/><g class="pR"><rect x="24" y="11" width="44" height="2" rx="1" fill="#F4F4F6" opacity="0.75"/></g><g class="pL"><rect x="832" y="11" width="44" height="2" rx="1" fill="#10B981" opacity="0.75"/></g>
 </svg>

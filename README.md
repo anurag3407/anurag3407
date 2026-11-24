@@ -15,7 +15,7 @@
   <a href="#01--selected-work">Selected Work</a> &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#02--stack--telemetry">Stack &amp; Telemetry</a> &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#03--signal--commits">Activity</a> &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#04--whats-next">Connect</a>
+  <a href="#04--connect">Connect</a>
 </sub>
 
 </div>
@@ -30,25 +30,38 @@
 
 <div align="center">
 
-<a href="https://github.com/anurag3407/career-pilot">
-  <img src="./assets/obsidian-flagship.svg" width="900" alt="career-pilot — Open-source AI career platform (135 stars, 750 forks)" />
+<a href="https://github.com/anurag3407/sayabot">
+  <img src="./assets/obsidian-project-sayabot.svg" width="900" alt="Sayabot — The shared room where your team and coding agents (Pocket Saya, Monitor Roomie, Astro Bot) work together" />
 </a>
 
 <br/>
 
-<a href="https://github.com/anurag3407/code_police"><img src="./assets/obsidian-card-codepolice.svg" width="49%" alt="Code-Police — PR co-maintainer and dependency impact analyzer" /></a>&nbsp;<a href="https://github.com/anurag3407/storinary"><img src="./assets/obsidian-card-storinary.svg" width="49%" alt="Storinary — Self-hosted image management and delivery" /></a>
+<a href="https://github.com/anurag3407/career-pilot">
+  <img src="./assets/obsidian-project-careerpilot.svg" width="900" alt="career-pilot — Most popular open-source AI career OS (135 stars, 750 forks)" />
+</a>
 
-<a href="https://github.com/anurag3407/ghosthunter"><img src="./assets/obsidian-card-ghostfounder.svg" width="49%" alt="GhostFounder — Startup toolkit for code review, pitch decks, equity, and NL2SQL" /></a>&nbsp;<a href="https://github.com/anurag3407?tab=repositories"><img src="./assets/obsidian-card-archive.svg" width="49%" alt="Browse all 162 repositories by Anurag Mishra" /></a>
+<br/>
+
+<a href="https://github.com/anurag3407/storinary">
+  <img src="./assets/obsidian-project-storinary.svg" width="900" alt="Storinary — Self-hosted Cloudinary alternative with WASM AI background removal and edge transforms" />
+</a>
+
+<br/>
+
+<a href="https://github.com/anurag3407/ghosthunter">
+  <img src="./assets/obsidian-project-ghostfounder.svg" width="900" alt="GhostFounder — AI and Web3 startup toolkit with Code Police, Pitch Studio, ERC-20 equity, and NL2SQL Database Agent" />
+</a>
 
 </div>
 
 <details>
-<summary><b>More builds &amp; experiments</b> — Lexi, JusticeTrack, ChainCrate, chat-with-pdf</summary>
+<summary><b>More builds &amp; experiments (162 repositories)</b> — Code-Police, Lexi, JusticeTrack, ChainCrate, chat-with-pdf</summary>
 <br/>
 
 | Project | Focus | Repository |
 |---|---|---|
-| **Lexi** | Conversational AI companion with a personality engine | [`anurag3407/Lexi`](https://github.com/anurag3407/Lexi) |
+| **Code-Police** | Open-source PR co-maintainer that maps dependency impact & flags merge conflicts | [`anurag3407/code_police`](https://github.com/anurag3407/code_police) |
+| **Lexi** | Conversational AI companion with a personality engine & RAG memory | [`anurag3407/Lexi`](https://github.com/anurag3407/Lexi) |
 | **JusticeTrack** | Court-case tracking interface for digitizing legal queues | [`anurag3407/Justice_track`](https://github.com/anurag3407/Justice_track) |
 | **ChainCrate** | Web3 storage vault backed by smart contracts | [`anurag3407/ChainCrate`](https://github.com/anurag3407/ChainCrate) |
 | **chat-with-pdf** | RAG pipeline for interrogating documents in natural language | [`anurag3407/chat-with-pdf`](https://github.com/anurag3407/chat-with-pdf) |
@@ -64,7 +77,7 @@
 ### `02` &nbsp; Stack &amp; Telemetry
 
 <div align="center">
-  <img src="./assets/obsidian-stack.svg" width="900" alt="Build, Data, and Ship stack matrix plus live language distribution across 121 original repositories" />
+  <img src="./assets/obsidian-stack.svg" width="900" alt="Full technology stack with official brand logos and live GitHub language distribution across 121 original repositories" />
 </div>
 
 <br/>
@@ -95,18 +108,18 @@
   <img src="./assets/obsidian-divider.svg" width="900" alt="" />
 </div>
 
-### `04` &nbsp; What's Next
+### `04` &nbsp; Connect
 
 <div align="center">
 
-<img src="./assets/obsidian-footer.svg" width="900" alt="Open to 2027 internships — Anurag Mishra, NIT Patna" />
+<img src="./assets/obsidian-connect.svg" width="900" alt="Connect with Anurag Mishra — NIT Patna CSE" />
 
 <br/>
 
-<a href="mailto:anuragmishra3407@gmail.com"><img src="./assets/obsidian-cta-email.svg" width="218" alt="Email Anurag" /></a>&nbsp;<a href="https://linkedin.com/in/anurag3407"><img src="./assets/obsidian-cta-linkedin.svg" width="218" alt="LinkedIn" /></a>&nbsp;<a href="https://x.com/anurag3407"><img src="./assets/obsidian-cta-x.svg" width="218" alt="X / Twitter" /></a>&nbsp;<a href="https://github.com/anurag3407"><img src="./assets/obsidian-cta-github.svg" width="218" alt="GitHub" /></a>
+<a href="https://github.com/anurag3407"><img src="./assets/obsidian-link-github.svg" width="24%" alt="GitHub @anurag3407" /></a>&nbsp;<a href="https://linkedin.com/in/anurag3407"><img src="./assets/obsidian-link-linkedin.svg" width="24%" alt="LinkedIn /in/anurag3407" /></a>&nbsp;<a href="https://x.com/anurag3407"><img src="./assets/obsidian-link-x.svg" width="24%" alt="X / Twitter @anurag3407" /></a>&nbsp;<a href="mailto:anuragmishra3407@gmail.com"><img src="./assets/obsidian-link-email.svg" width="24%" alt="Email anuragmishra3407@gmail.com" /></a>
 
 <br/><br/>
 
-<sub>Crafted in raw animated SVG · No third-party templates</sub>
+<sub>Crafted in raw animated SVG · No templates</sub>
 
 </div>
